@@ -8,3 +8,12 @@
 其他学习地址：
 http://my.oschina.net/shanhe/blog/280441(npm的使用)
 http://blogread.cn/it/article/7525?f=hot1(npm常见命令)
+
+
+学习github for windows下的一些问题：
+(1)关于pull request的理解
+~  git clone https://github.com/beepony/bootstrap.git
+~  cd bootstrap
+~  git checkout -b test-pr  
+~  git add . && git commit -m "test-pr" //其中这里的点表示当前目录
+~  git push origin test-pr
